@@ -16,26 +16,26 @@
 
 export const profile = {
   /** Your name as you want it to appear everywhere. */
-  displayName: "Your Name",
+  displayName: "Jack Pawluk",
 
   /** Your UD email — must match the one you signed into the course with. */
-  email: "you@udel.edu",
+  email: "jackpaw@udel.edu",
 
   /** Where you're from. Shows on your roster card and /about. */
-  hometown: "Newark, Delaware",
+  hometown: "Baltimore, Maryland",
 
   /**
    * 2 to 4 fun facts (the grader checks the count!). Real ones: they're
    * how classmates find something to say hello about.
    */
   funFacts: [
-    "I once assembled IKEA furniture without leftover screws.",
-    "I can name every U.S. state capital in under two minutes.",
+    "I love to collect cards, mainly soccer and pokemon.",
+    "I prefer to vacation in Calgary, Alberta, rather than a beach destination.",
   ],
 
   /** One decision you're proud of, in a sentence. */
   decisionImProudOf:
-    "I chose to take a gap semester to work retail; it taught me more about customers than any textbook.",
+    "I'm proud of my decision to work on my CPA early in my college career, so I don't have to worry about when I am working fulltime.",
 
   /**
    * Your photo. Replace public/photo.svg with a real photo of you
@@ -52,18 +52,18 @@ export const profile = {
   rosterVisibility: "class" as "class" | "professor-only",
 
   /** A one-line tagline for your home page. Make it yours. */
-  tagline: "Building a portfolio of decision services, one lane at a time.",
+  tagline: "Precision in every number. Confidence in every decision.",
 
   /**
    * A short bio for your home page: two or three sentences, written like
    * a person, not a resume. What are you studying? What do you care about?
    */
-  bio: "I'm a business student at the University of Delaware learning to make good decisions at any scale. This site is my working portfolio: every course challenge deploys here as a live service.",
+  bio: "I am a Accounting and Business Analytics major at the University of Delaware. I am interested in the intersection of technology and accounting, and how to use technology to improve the accounting process.",
 
   /**
    * Your GitHub repo URL. The course platform reads this from /api/health to
    * verify you have ≥ 5 commits spread over days (not one bulk dump).
    * Example: "https://github.com/your-username/your-repo"
    */
-  repoUrl: "https://github.com/your-username/your-repo",
+  repoUrl: "https://github.com/JackPaw05/my-site",
 };
