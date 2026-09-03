@@ -42,14 +42,14 @@ export const profile = {
    * (e.g. put photo.jpg in the public/ folder and change this to "/photo.jpg").
    * It must be a real image file: the grader fetches it and checks.
    */
-  photoPath: "/photo.svg",
+  photoPath: "/headshot.png",
 
   /**
    * Who can see your roster card:
    *   "class"          — your classmates and the professor (recommended)
    *   "professor-only" — just the professor
    */
-  rosterVisibility: "class" as "class" | "professor-only",
+  rosterVisibility: "class" as "class" | "professor-only" | "class" ,
 
   /** A one-line tagline for your home page. Make it yours. */
   tagline: "Precision in every number. Confidence in every decision.",
