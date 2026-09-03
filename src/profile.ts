@@ -49,7 +49,7 @@ export const profile = {
    *   "class"          — your classmates and the professor (recommended)
    *   "professor-only" — just the professor
    */
-  rosterVisibility: "class" as "class" | "professor-only" | "class" ,
+  rosterVisibility: "class" as "class" | "professor-only",
 
   /** A one-line tagline for your home page. Make it yours. */
   tagline: "Precision in every number. Confidence in every decision.",
