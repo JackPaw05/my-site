@@ -9,7 +9,7 @@
     "selfcheck": "node scripts/selfcheck.mjs",
     "try-reasoning": "node scripts/try-reasoning.mjs",
     "try-simulator": "node scripts/try-simulator.mjs",
-    "try-casuality": "node scripts/try-casuality.mjs"
+    "try-causality": "node scripts/try-casuality.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.5",
